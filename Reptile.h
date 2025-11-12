@@ -1,16 +1,17 @@
-#ifndef REPTILE_H
-#define REPTILE_H
+#ifndef REPTILE_H_INCLUDED
+#define REPTILE_H_INCLUDED
+#include <iostream>
+using namespace std;
 
-#include "Animal.h"
+class Reptile::Animal.h{
+private:
+    bool isVenomous;
+public:
+    Reptile(bool isVenomous);
+    ~Reptile();
+    getisVenomous();
+    setisVenomous();
+};
 
-//define reptile class here
 
-
-
-
-
-
-
-
-
-#endif
+#endif // REPTILE_H_INCLUDED
