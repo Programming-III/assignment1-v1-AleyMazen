@@ -1,15 +1,25 @@
-#ifndef ENCLOSURE_H
-#define ENCLOSURE_H
+#ifndef ENCLOSURE_H_INCLUDED
+#define ENCLOSURE_H_INCLUDED
+#include <iostream>
+using namespace std;
 
-#include "Animal.h"
+class Enclosure{
+private:
+    Animal* arr[];
+    int capacity;
+    int currentCount;
+public:
+    Enclosure(Animal* arr[], int capacity, int currentCount);
+    ~Enclosure();
+    getarr();
+    setarr();
+    getcapacity();
+    setcapacity();
+    getcurrentCount();
+    setcurrentCount();
+    void addAnimal(Animal* a);
+    void displayAnimals();
+};
 
-//define enclosure class here 
 
-
-
-
-
-
-
-
-#endif
+#endif // ENCLOSURE_H_INCLUDED
